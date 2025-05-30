@@ -171,25 +171,26 @@ To configure a **Jenkins pipeline** to automate the **build, test**, and **deplo
 
     ```
 
+#### Jnekinsfile performs the following tasks:
 
     1. ✅ **Checkout**  
-    - Clones the project from GitHub.
+        - Clones the project from GitHub.
 
     2. 📦 **Install Dependencies**  
-    - Runs `npm install` for both `backend/` and `frontend/`.
+        - Runs `npm install` for both `backend/` and `frontend/`.
 
     3. 🛠️ **Build Projects**  
-    - Builds the backend and frontend using `npm run build` (if build scripts exist).
+        - Builds the backend and frontend using `npm run build` (if build scripts exist).
 
     4. 🐳 **Dockerize**  
-    - Builds Docker images for backend and frontend.
-    - Pushes them to Docker Hub using stored credentials.
+        - Builds Docker images for backend and frontend.
+        - Pushes them to Docker Hub using stored credentials.
 
     5. 🧹 **Cleanup**  
-    - Removes unused Docker images to free space.
+        - Removes unused Docker images to free space.
 
     6. 📢 **Notifications**  
-    - Prints a success or failure message after the pipeline runs.
+        - Prints a success or failure message after the pipeline runs.
 
 ### Task 4: push the Jenkinsfile to your repository
 1. **Commit and Push**  
