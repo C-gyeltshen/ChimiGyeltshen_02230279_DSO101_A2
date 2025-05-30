@@ -201,6 +201,7 @@ To configure a **Jenkins pipeline** to automate the **build, test**, and **deplo
    ```
 2. **Verify in GitHub**  
    Ensure the `Jenkinsfile` is visible in your repository.
+
    ![4](./image/4.png)
 
 ### Task 5: Create a Jenkins Pipeline Job
@@ -214,12 +215,27 @@ To configure a **Jenkins pipeline** to automate the **build, test**, and **deplo
    - Set `Definition` to `Pipeline script from SCM`  
    - Select `Git` as SCM  
    - Enter your repository URL: `https://github.com/C-gyeltshen/ChimiGyeltshen_02230279_DSO101_A1.git`
-   ![3](./image/3.png)
+
+        ![3](./image/3.png)
 
 ### Task 6: Build the Pipeline
 1. **Run the Pipeline**  
    - Click `Build Now` in your Jenkins job  
    - Monitor the console output for build progress and results
-    ![5](./image/5.png)
+
+        ![5](./image/5.png)
+
+- **Docker image pushed to Docker Hub:**
+
+    ![6](./image/8.png)
 
 
+### Challenges 
+
+- The `technological sytack` choosen uses `TypeScript`/modern JavaScript syntax (like type or .tsx), but Jest is not set up to understand it.
+
+- **To fix i tried :** 
+
+    - Added `babel` to handle TypeScript.
+
+    - Update Jest config to support TypeScript files (.ts/.tsx) and modern syntax.
