@@ -206,7 +206,7 @@ To configure a **Jenkins pipeline** to automate the **build, test**, and **deplo
 ### Task 5: Create a Jenkins Pipeline Job
 1. **Create a New Pipeline Job**  
    - Go to Jenkins Dashboard > New Item  
-   - Enter a name (e.g., `ToDoApp-CI-CD`)  
+   - Enter a name (e.g., `Assignment2`)  
    - Select `Pipeline` and click `OK`
 
 2. **Configure the Pipeline**
